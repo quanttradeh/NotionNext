@@ -18,8 +18,8 @@ const Footer = ({ siteInfo }) => {
             <hr className='pb-2' />
 
             <div className='flex justify-center'>
-                <div><i className='mx-1 animate-pulse fas fa-heart' /> <a href={BLOG.LINK} className='underline font-bold text-gray-500 dark:text-gray-300 '>{BLOG.AUTHOR}</a>&nbsp;&nbsp; <br /></div>
-                © {`${copyrightDate}`}
+                <div><i className='mx-1 animate-pulse fas fa-heart' /> <a href={BLOG.LINK} className='underline font-bold text-gray-500 dark:text-gray-300 '>{BLOG.AUTHOR}</a><br /></div>
+                <div>© {`${copyrightDate}`}</div>
             </div>
             <span className='hidden busuanzi_container_site_pv'>
                 <i className='fas fa-eye' /><span className='px-1 busuanzi_value_site_pv'> </span>  </span>
