@@ -220,7 +220,7 @@ const LayoutSlug = (props) => {
             {!lock && <div id='container'>
 
                 {/* title */}
-                <h1 className="text-3xl pt-12  dark:text-gray-300">{post?.title}</h1>
+                <h1 className="text-3xl font-bold pt-12  dark:text-gray-300">{post?.title}</h1>
 
                 {/* Notion文章主体 */}
                 {post && (<section id="article-wrapper" className="px-1">
